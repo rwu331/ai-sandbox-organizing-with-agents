@@ -37,13 +37,20 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set your API key in a local `.env` file:
+Create a local `.env` file from the provided example:
+
+```bash
+cp .env.example .env
+```
+
+Then replace the placeholder API key in `.env` with your own:
 
 ```text
 OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-4.1-mini
 ```
 
-Do not commit `.env` or API credentials to GitHub. To test the code without an API key or API charges, use `--mock` as explained below.
+Do not commit `.env` or API credentials to GitHub. The provided `.env.example` can remain in the repository. To test the code without an API key or API charges, use `--mock` as explained below.
 
 ## 3. Run a simulation
 
