@@ -1,0 +1,9 @@
+week,customers,cumulative_customer_weeks,new_features,completed_features,features_completed_count,outdated_work,messages,words,send_hours,receive_hours,communication_hours,broadcast_messages,private_messages,work_hours,unused_hours,excess_work_hours,outdated_hours,communication_rounds_used,communication_stop_reason
+1,25,25,"[""feature_3""]","[""feature_3""]",1,{},25,1257,6.25,18.25,24.5,15,10,375.5,0,225.5,0,3,max_rounds_reached
+2,25,50,[],"[""feature_3""]",1,"{""feature_2"": {""percent_outdated"": 95, ""hours_lost"": 349.6}}",24,1259,6.0,26.0,32.0,23,1,368.0,0,0,349.6,3,max_rounds_reached
+3,25,75,[],"[""feature_3""]",1,"{""feature_1"": {""percent_outdated"": 48, ""hours_lost"": 17.4}, ""feature_2"": {""percent_outdated"": 91, ""hours_lost"": 313.1765}}",29,1260,7.25,30.75,38.0,27,2,362.0,0,0,330.5765,3,max_rounds_reached
+4,125,200,"[""feature_2""]","[""feature_2"", ""feature_3""]",2,"{""feature_1"": {""percent_outdated"": 100, ""hours_lost"": 18.85}}",22,969,5.5,24.75,30.25,22,0,369.75,0,10.7235,18.85,3,max_rounds_reached
+5,165,365,"[""feature_2_1""]","[""feature_2"", ""feature_2_1"", ""feature_3""]",3,{},30,1198,7.5,32.75,40.25,29,1,359.75,0,79.75,0,3,max_rounds_reached
+6,165,530,[],"[""feature_2"", ""feature_2_1"", ""feature_3""]",3,"{""feature_2_2"": {""percent_outdated"": 16, ""hours_lost"": 57.62}}",29,1076,7.25,32.625,39.875,29,0,360.125,0,0,57.62,3,max_rounds_reached
+7,385,915,"[""feature_2_2""]","[""feature_2"", ""feature_2_1"", ""feature_2_2"", ""feature_3""]",4,{},20,738,5.0,22.5,27.5,20,0,372.5,0,125.005,0,3,max_rounds_reached
+8,450,1365,"[""feature_2_3""]","[""feature_2"", ""feature_2_1"", ""feature_2_2"", ""feature_2_3"", ""feature_3""]",5,{},29,969,7.25,32.625,39.875,29,0,360.125,0,100.125,0,3,max_rounds_reached

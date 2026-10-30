@@ -1,0 +1,71 @@
+{
+  "weeks_completed": 8,
+  "customers_at_week_8": 475,
+  "cumulative_customer_weeks": 1875,
+  "features_completed": [
+    "feature_1",
+    "feature_1_1",
+    "feature_1_2",
+    "feature_1_3",
+    "feature_3"
+  ],
+  "total_tokens": 3479811,
+  "communication_rounds_per_week": {
+    "1": 6,
+    "2": 9,
+    "3": 5,
+    "4": 3,
+    "5": 2,
+    "6": 4,
+    "7": 3,
+    "8": 1
+  },
+  "communication_stop_reasons": {
+    "1": "all_silent",
+    "2": "all_silent",
+    "3": "all_silent",
+    "4": "all_silent",
+    "5": "all_silent",
+    "6": "all_silent",
+    "7": "all_silent",
+    "8": "all_silent"
+  },
+  "agent_tokens": {
+    "agent_a": 339789,
+    "agent_b": 356080,
+    "agent_c": 340884,
+    "agent_d": 349519,
+    "agent_e": 338511,
+    "agent_f": 346451,
+    "agent_g": 359638,
+    "agent_h": 340206,
+    "agent_i": 368846,
+    "agent_j": 339887
+  },
+  "total_messages": 131,
+  "total_words": 6404,
+  "messages_by_agent": {
+    "agent_a": 13,
+    "agent_b": 14,
+    "agent_c": 10,
+    "agent_d": 13,
+    "agent_e": 13,
+    "agent_f": 14,
+    "agent_g": 13,
+    "agent_h": 9,
+    "agent_i": 18,
+    "agent_j": 14
+  },
+  "total_send_hours": 32.75,
+  "total_receive_hours": 126.7425,
+  "total_communication_hours": 159.4925,
+  "total_broadcast_messages": 131,
+  "total_private_messages": 0,
+  "total_work_hours": 2918.515,
+  "total_unused_hours": 121.9925,
+  "total_excess_work_hours": 727.869125,
+  "total_outdated_hours": 344.4733,
+  "invalid_action_attempts": 18,
+  "api_errors": 0,
+  "completed_successfully": true
+}
