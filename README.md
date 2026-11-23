@@ -22,6 +22,7 @@ The main files are organized by their role in the research workflow:
 | `reporting.py` | Produces the per-run summary and weekly agent/firm reports |
 | `generate_comparison.py` | Combines results from multiple runs into a comparison table |
 | `hierarchy_metrics.py` | Uses a separate LLM evaluator to classify attempts to exercise authority in agent messages |
+| `analysis_code_202610.do` | Stata analysis code used to generate the figures presented in the paper |
 | `pilot_experiments/` | Archived pilot runs, aggregate outputs, and a separate reproduction guide |
 | `requirements.txt` | Python packages needed to run the code |
 
@@ -240,3 +241,7 @@ The evaluator also saves `hierarchy_assessments.jsonl` for reviewing individual 
 - **Interpret seeds carefully.** Seeds control local random processes such as speaking order and progress decay, but do not guarantee identical LLM responses or final outcomes. A different sequence of agent decisions may also change which random draws are used.
 - **Distinguish simulations from post-processing.** `generate_comparison.py` reconstructs metrics from event logs; `hierarchy_metrics.py` makes additional LLM-based judgments that can vary between evaluations.
 - **Account for API costs.** Full LLM simulations and hierarchy evaluation may incur charges. `--mock` is for checking the code, not reproducing behavioral findings.
+
+### Reproducing the paper figures
+
+The figures presented in the paper can be generated using `analysis_code_202610.do`, which contains the Stata analysis code.
